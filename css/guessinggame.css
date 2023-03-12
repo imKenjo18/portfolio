@@ -1,0 +1,102 @@
+#playguessinggame {
+  background-image: linear-gradient(to bottom right, rgb(39, 124, 61), #003000);
+  padding: 9px;
+  border: 1px solid rgb(12, 29, 12);
+  border-radius: 10px;
+  color: rgb(230, 230, 230);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.guessing-game-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.guessing-game {
+width: 300px;
+height: 250px;
+display: grid;
+justify-items: center;
+align-items: center;
+background-color: gray;
+border-radius: 7px;
+box-shadow: 0px 0px 5px 2px black;
+position: relative;
+}
+
+#guessing-game-content {
+align-self: flex-start;
+display: grid;
+justify-items: center;
+align-items: center;
+}
+
+.guessing-game-message {
+  position: absolute;
+  top: 80px;
+  padding: 10px;
+}
+
+.guessing-game-category-overlay {
+  display: flex;
+  position: absolute;
+  top: 150px;
+}
+
+.guessing-game-category {
+padding: 5px;
+margin-right: 5px;
+}
+
+.guessing-overlay {
+  display: none;
+  position: absolute;
+  top: 200px;
+}
+
+.guessing {
+padding: 5px;
+border: none;
+margin-right: 5px;
+}
+
+.guesses-left {
+  position: absolute;
+  top: -40px;
+}
+
+.guessing-game-end-overlay {
+  display: none;
+  position: absolute;
+  top: 175px;
+}
+
+.guessing-game-play-again {
+  padding: 5px;
+}
+
+.guessing-game-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.guessing-game-score {
+  position: absolute;
+  top: -15px;
+  left: 10px;
+}
+
+.game-title {
+  position: absolute;
+  top: 5px;
+}
