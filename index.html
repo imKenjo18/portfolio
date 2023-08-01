@@ -3,47 +3,86 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="images/kenjoslab-icon-152.png">   
     <meta name="theme-color" content="green">  
     <meta name="apple-mobile-web-app-capable" content="yes">  
     <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
-    <meta name="apple-mobile-web-app-title" content="Joshua Kent"> 
+    <meta name="apple-mobile-web-app-title" content="Joshua Kent Portfolio"> 
     <meta name="msapplication-TileImage" content="images/kenjoslab-icon-144.png">  
     <meta name="msapplication-TileColor" content="#18BD00">
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/guessinggame.css">
-    <link rel="stylesheet" href="css/tictactoe.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <title>Joshua Kent</title>
 </head>
 
 <body link="black" vlink="black">
-    <nav id="navbar" class="topnav">
-        <a class="active"><b>Joshua Kent</b></a>
-        <a href="javascript:void(0)">About</a>
-        <a href="https://github.com/imKenjo18">GitHub</a>
-        <a href="https://www.instagram.com/im.kenjo/">Instagram</a>
-        <a href="javascript:void(0);" class="icon" onclick="navBar()">
-            <i class="fa fa-bars"></i>
-        </a>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Joshua Kent</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#games">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/imKenjo18">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/im.kenjo/">Instagram</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/imKenjo18"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/im.kenjo/"><i class="fab fa-instagram"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <div class="main">
-        Hello there. My name is Joshua Kent.
-    </div>
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <h1>Hello there. My name is Joshua Kent.</h1>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illo velit ex minima accusantium commodi aspernatur, dignissimos id praesentium consequatur eveniet quidem sint deleniti iusto corporis minus voluptates voluptas earum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla veritatis neque impedit officia, libero quos? Aliquam iste impedit quas deserunt architecto aperiam aspernatur porro vitae unde nam illum reiciendis maxime, velit explicabo dicta nisi? Sed doloremque rerum laudantium dolorum molestias officiis neque! Officia blanditiis, architecto perferendis a, labore atque quibusdam quidem esse modi eveniet alias? Pariatur aliquid modi doloremque, delectus unde tempora a qui tempore cupiditate? Temporibus, architecto id laborum labore rerum, placeat nostrum optio ducimus dolorem totam dolores cum perferendis deserunt, officia pariatur facere laudantium porro odit excepturi! Libero dolorem debitis magnam optio distinctio consequatur, vitae possimus odit modi omnis. Ipsam ad, quas natus quidem dolore dicta aperiam atque consequatur dignissimos beatae architecto quod vitae omnis voluptatibus adipisci numquam laborum odit quisquam.</h1>
+    </section>
+    <section id="contact">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ut rerum nihil nam aspernatur culpa ea veniam asperiores a pariatur! Nemo porro a minima vitae ea adipisci voluptate pariatur ratione temporibus at accusamus corporis sunt ullam modi omnis sapiente maxime optio deleniti quisquam ipsum ab, rem maiores nesciunt veritatis? Mollitia neque corporis maxime debitis ad reprehenderit itaque explicabo eaque ratione. Aut, animi inventore magnam ipsam alias ad possimus dicta quos labore? Nihil quae reiciendis optio omnis perspiciatis quia eum pariatur doloribus, nemo id accusamus sequi commodi inventore velit totam voluptatem provident tenetur, dolores incidunt iusto maxime at? Nam, ratione laudantium recusandae atque sit provident unde id fugiat nesciunt reprehenderit delectus impedit temporibus facere odio sequi accusamus omnis. Voluptatem aliquid illo aperiam necessitatibus eligendi ducimus itaque sit. Repudiandae, assumenda! Necessitatibus totam perferendis sint eveniet blanditiis, enim rem quos! Nihil iusto ex non animi praesentium dicta perferendis, accusamus ducimus quidem hic magni facere vitae blanditiis fuga provident quaerat. Numquam voluptatum veniam accusamus, aspernatur provident aliquam rerum iure facilis quis iste vero, ullam accusantium vitae consequuntur, officiis iusto impedit ipsa corrupti quae quia quasi? Deserunt, qui debitis consequatur perferendis impedit adipisci eos, necessitatibus magnam cupiditate, iusto nam odit temporibus modi asperiores ratione minus?</h1>
+    </section>
+    <section id="games">
+        <h1>This just a test. The text here could be anything really but in this example I used this. I just realized that the nav bar covers the text when using sections.
+    </section>
     
     <footer>
-        <center><p><small>All Rights Reserved.</small></p>
+        <p><small>All Rights Reserved.</small></p>
         <p><small>&copy; 2023 Joshua Kent Regencia</small></p>
     </footer>
 
-    <script src="js/main.js"></script>
-    <script src="js/webguessinggame.js"></script>
-    <script src="js/games.js"></script>
-    <script src="js/tictactoe.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/webguessinggame.js"></script>
+    <script src="scripts/games.js"></script>
+    <script src="scripts/tictactoe.js"></script>
 </body>
 
 </html>

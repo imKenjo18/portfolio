@@ -1,14 +1,14 @@
-var cacheName = 'kenjoslab-pwa';
+var cacheName = 'joshuakent-pwa';
 var filesToCache = [
   '/',
   '/index.html',
   '/css/guessinggame.css',
   '/css/main.css',
   '/css/tictactoe.css',
-  '/js/games.js',
-  '/js/main.js',
-  '/js/webguessinggame.js',
-  '/js/tictactoe.js'
+  '/scripts/games.js',
+  '/scripts/main.js',
+  '/scripts/webguessinggame.js',
+  '/scripts/tictactoe.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
